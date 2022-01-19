@@ -35,7 +35,7 @@ namespace seeta
              * \brief 加载模型文件
              * \param setting 模型文件, 0-局部活体检测文件（必选），1-全局活体检测文件（可选）
              */
-            SEETA_API explicit FaceAntiSpoofing( const seeta::ModelSetting &setting );
+            SEETA_API explicit FaceAntiSpoofing( const SeetaModelSetting &setting );
             SEETA_API ~FaceAntiSpoofing();
 
 

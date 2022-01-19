@@ -1232,7 +1232,7 @@ namespace seeta
             std::shared_ptr<Inner> m_impl;
         };
 
-        FaceAntiSpoofing::FaceAntiSpoofing( const seeta::ModelSetting &setting )
+        FaceAntiSpoofing::FaceAntiSpoofing( const SeetaModelSetting &setting )
             : m_impl( new Implement( setting ) )
         {
 
